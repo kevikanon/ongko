@@ -129,6 +129,8 @@ class Ongko
 
     public function toWords($number)
     {
+        $number = str_replace(",", "", $number);
+        $number = str_replace(" ", "", $number);
         if (!is_numeric($number) || $number < 0) {
             throw new InvalidArgumentException('Not a valid number.');
         }
