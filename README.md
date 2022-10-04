@@ -19,7 +19,7 @@ use Kevikanon\Ongko;
 $ongko = new Ongko;
 
 ### Bangla Words
-$ongko->toWords(458677524); // returns: পঁয়তাল্লিশ কোটি সাতাত্তর লক্ষ ছিয়াশি হাজার পাঁচশত চব্বিশ
+$ongko->toWords(458677524); // returns: পঁয়তাল্লিশ কোটি ছিয়াশি লক্ষ সাতাত্তর হাজার পাঁচশত চব্বিশ
 $ongko->toWords(455.24);;   // returns: চারশত পঞ্চান্ন দশমিক দুই চার
 
 
